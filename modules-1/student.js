@@ -10,6 +10,8 @@ const city = () => {
   return "Basirhat";
 };
 
-exports.getName = getName;
-exports.getAge = getAge;
-exports.city = city;
+module.exports = {
+  getName,
+  getAge,
+  city,
+};
